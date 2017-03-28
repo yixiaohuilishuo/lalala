@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/register.css" />
+		<link rel="stylesheet" href="css/public.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="js/register.js"></script>
+		<title>注册第一步</title>
+	</head>
+	<body>
+		<nav class="navbar-fixed-top" role="navigation" id="top">
+			<div class="container">
+				<span class="city">北京</span>
+				<span>[切换城市]</span>
+				<span>您好，欢迎来到4spart原厂件流通平台</span>
+				<div class="pull-right">
+					<span class="operate"><a>登录</a>/<a>注册</a></span>
+					<span class="operate"><i></i>收藏夹</span>
+					<span class="operate">联系客服</span>
+				</div>
+			</div>
+		</nav>
+		<div class="logo"></div>
+		<div class="container">
+			<div class="row">
+				<p class="tip">交易风险提示：4sparts原厂件流通平台提供远程配件交易平台，不对交易承担任何风险，如交易出现问题可通过投诉平台反映，并及时报案！</p>
+			</div>
+			<div class="row" id="title">
+				<div class="col-xs-5 col-md-5 col-lg-5">
+					<span class="lhr"></span>
+				</div>
+				<div class="col-xs-2 col-md-2 col-lg-2">
+					<h2 class="text-center">注册</h2>
+				</div>
+				<div class="col-xs-5 col-md-5 col-lg-5">
+					<span class="rhr"></span>
+				</div>
+			</div>
+			<div class="row" id="regtype">
+				<span>买家注册</span>
+				<span class="currreg">卖家注册</span>
+			</div>
+			<div class="row" id="regtip">
+				<i></i>
+				<span>为了保证平台配件信息为原厂品质，目前仅4s店会员开放申请为卖家功能，其他类型企业无法审核通过，如带来不便，4sparts表示歉意</span>
+			</div>
+			<div class="row"></div>
+			<div class="row" id="step">
+				<div class="col-lg-3 reged currregstep">
+					<img src="img/no.1.png" />
+					<span>设置登录名</span>
+				</div>
+				<div class="col-lg-3">
+					<img src="img/no.2b.png" />
+					<span>填写企业信息</span>
+				</div>
+				<!--<div class="col-lg-3">
+					<img src="img/no.3a.png" />
+					<span>实名认证</span>
+				</div>-->
+				<div class="col-lg-3">
+					<img src="img/no.4a.png" />
+					<span>注册成功</span>
+				</div>
+			</div>
+			<div class="row" id="formgroup">
+				<table>
+					<tr>
+						<td align="right" width="110px" class="tit"><img src="img/required.png">会员名</td>
+						<td>
+							<div class="inputborder">
+								<input type="text" name="vip_name" />
+							</div>
+							<span class="err"></span>
+						</td>
+					</tr>
+					<tr>
+						<td align="right" class="tit"><img src="img/required.png">手机号</td>
+						<td>
+							<div class="inputborder">
+								<input type="text" name="phone" />
+							</div>
+							<span class="err"></span>
+						</td>
+					</tr>
+					<tr>
+						<td align="right" class="tit"><img src="img/required.png">登录密码</td>
+						<td>
+							<div class="inputborder">
+								<input type="password" name="pass_submit" />
+							</div>
+							<span class="err"></span>
+						</td>
+					</tr>
+					<tr>
+						<td align="right" class="tit"><img src="img/required.png">确认密码</td>
+						<td>
+							<div class="inputborder">
+								<input type="password"  name="true_pass"/>
+							</div>
+							<span class="err"></span>
+						</td>
+					</tr>
+					<tr>
+						<td align="right" class="tit"><img src="img/required.png">验证码</td>
+						<td>
+							<div class="checkcodeinput">
+								<input type="text" name="check_code" />
+							</div>
+							<div class="checkcode">
+								<img src="img/checkcode.png" />
+								<span class="change">换一张</span>
+							</div>
+							<span class="err"></span>
+						</td>
+					</tr>
+					<tr>
+						<td align="right" class="tit"><img src="img/required.png">手机验证</td>
+						<td>
+							<div class="checkcodeinput">
+								<input type="text" name="phone_check"/>
+							</div>
+							<button id="getCode" class="getcode">获取密码</button>
+							<span class="err"></span>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="agree">
+				<input type="checkbox" />我已阅读并同意
+				<span class="protocol">《商城用户注册协议》</span>
+			</div>
+			<div class="next">
+				<button class="btn-warning">下一步</button>
+			</div>
+		</div>
+        <script type="text/javascript">
+        </script>
+	</body>
+</html>
